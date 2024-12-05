@@ -12,7 +12,7 @@ public class Propuesto24 {
       
         if (A > B && A > C) {
           System.out.println("La esfera A es la más grande");
-        } else if (B > C) {
+        } else if (B > C && B > A) {
           System.out.println("La esfera B es la más grande");
         } else {
           System.out.println("La esfera C es la más grande");
