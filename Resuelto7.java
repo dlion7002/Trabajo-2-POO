@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class ER7 {
+public class Resuelto7 {
 
 
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package ER10;
 import java.util.Scanner;
 
-public class ER10 {
+public class Resuelto10 {
         public static void main(String[] args) {
         double patrimonio;
         double pagmat;
