@@ -4,12 +4,21 @@ public class Propuesto23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese la constante a: ");
-        int a = sc.nextDouble()
+        double a = sc.nextDouble();
         System.out.println("Ingrese la constante b: ");
-        int b = sc.nextDouble()
+        double b = sc.nextDouble();
         System.out.println("Ingrese la constante c: ");
-        int c = sc.nextDouble()
+        double c = sc.nextDouble();
+
+        double solu1 = (-b + Math.sqrt(b*b - 4*a*c))/(2*a);
+        double solu2 = (-b - Math.sqrt(b*b - 4*a*c))/(2*a);
       
-        System.out.println("La ecuacion es: " + a + "x^2 + " + b + "x + " + c);
+        if (b*b - 4*a*c > 0) {
+          System.out.println("La ecuación tiene dos soluciones reales, x1: " + solu1 + " y x2: " + solu2);
+        } else if (b*b - 4*a*c == 0) {
+          System.out.println("La ecuación tiene una solución real, x: " + solu1);
+        } else {
+          System.out.println("La ecuación no tiene soluciones reales");
+        }
   }
 }
