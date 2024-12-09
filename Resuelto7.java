@@ -1,9 +1,5 @@
 import java.util.Scanner;
-
-
 public class Resuelto7 {
-
-
     public static void main(String[] args) {
         double a, b; 
 

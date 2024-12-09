@@ -1,7 +1,4 @@
-
 import java.util.Scanner;
-//Dados los tres lados de un triángulo, haga un algoritmo que encuentre: perímetro, semiperímetro y el área del triángulo.
-
 public class Propuesto21 {
     
     public static void main(String[] args) {
@@ -32,14 +29,6 @@ public class Propuesto21 {
         System.out.println("Perimetro: " + perimetro);
         System.out.println("Semiperimetro: " + semiperímetro);
         System.out.println("area: " + area);
-
-
-
-
-
-
-
-
 
     }
 }
