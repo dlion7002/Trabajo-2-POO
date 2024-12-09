@@ -5,7 +5,7 @@ public class Prueba {
         Círculo figura1 = new Círculo(2);
         Rectangulo figura2 = new Rectangulo(1,2);
         Cuadrado figura3 = new Cuadrado(3);
-        TrianguloR figura4 = new TrianguloR(3,5);
+        TrianguloR figura4 = new TrianguloR(8,4);
         System.out.println("El área del círculo es = " + figura1.
         calcularArea());
         System.out.println("El perímetro del círculo es = " + figura1.
