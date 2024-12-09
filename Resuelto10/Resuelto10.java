@@ -1,4 +1,4 @@
-package ER10;
+package Resuelto10;
 import java.util.Scanner;
 
 public class Resuelto10 {

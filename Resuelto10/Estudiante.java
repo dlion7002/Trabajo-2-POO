@@ -1,4 +1,4 @@
-package ER10;
+package Resuelto10;
 
 public class Estudiante {
 int ni;
